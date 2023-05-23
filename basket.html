@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Online Shop{% endblock %}</title>
+
+  </head>
+  <body>
+  {% block contect %}
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+    <header>
+      <h1>ONLINE SHOP</h1>
+      <div class="btn-group">
+      <a href="/"><button class="login-btn">BASKET</button></a>
+      </div>
+    </header>
+<div class="menu">
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="#">Categories</a>
+          <ul>
+            <li><a href="sport">Sport</a></li>
+            <li><a href="#">Electronic</a></li>
+            <li><a href="#">House</a></li>
+          </ul>
+        </li>
+        <li><a href="contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+
+</div>
+
+
+
+
+    <main>
+      <!-- Content here -->
+    </main>
+
+  {% endblock %}
+  </body>
+</html>
+
+
+

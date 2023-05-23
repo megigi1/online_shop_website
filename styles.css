@@ -1,0 +1,191 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0066c2 20%, #ffffff 70%);
+  z-index: 0;
+  margin-top: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'MyCustomFont', sans-serif;
+  color: white;
+}
+
+.login-btn, .reg-btn {
+  background-color: lightblue;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+
+
+.btn-group {
+  float: right;
+}
+
+.contact {
+  margin-top: 30%;
+  text-align: center;
+
+}
+
+.intro, .btn {
+  margin-top: 1rem;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: black;
+}
+
+.category-text {
+  margin: 0 10px;
+  font-weight: bold;
+  color: white;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  margin-right: 1em;
+}
+
+a {
+  display: block;
+  padding: 0.5em;
+  color: black;
+  text-decoration: none;
+}
+
+ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  padding: 0.5em;
+  background-color: none;
+  border: none;
+}
+
+ul li:hover > ul {
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin: 10px;
+  width: 100%;
+}
+
+.form-label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.form-control {
+  display: inline-block;
+  width: 300px;
+}
+
+.btn-block {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px; /* adjust as needed */
+  margin-bottom: 300px;
+}
+
+.heading h2 {
+  margin: 0;
+  padding: 20px;
+  padding-left: 20px;
+}
+
+.heading h2:first-child {
+  border-right: 2px solid black;
+  margin-right: 20px;
+}
+
+
+.menu {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 500px;
+
+}
+
+.menu a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+

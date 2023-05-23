@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Online Shop{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+  </head>
+  <body>
+  {% block contect %}
+    <header>
+      <h1>ONLINE SHOP</h1>
+      <div class="btn-group">
+      <a href="login"><button class="login-btn">LOG IN</button></a>
+      <a href="register"><button class="reg-btn">REGISTER</button></a>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="#">Categories</a>
+          <ul>
+            <li><a href="sport">Sport</a></li>
+            <li><a href="#">Electronic</a></li>
+            <li><a href="#">House</a></li>
+          </ul>
+        </li>
+        <li><a href="contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+
+
+
+
+
+
+    <main>
+      <!-- Content here -->
+    </main>
+    <section class="contact">
+      <h2>RULES</h2>
+      <p class="intro">Register - Log In - Put items in Basket - Buy - Enjoy!</p>
+      <p class="intro">Short about me : I am a programmer. Learning Python language. This website is based on APIs, Checkouts, Databases.</p>
+
+      <p class="intro">Page is made by THEMEG® 2023. </p>
+
+    </section>
+  {% endblock %}
+  </body>
+</html>
+
+
+
